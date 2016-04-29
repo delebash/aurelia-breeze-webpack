@@ -1,5 +1,3 @@
-import breeze from 'breeze-client';
-import {HttpClient} from 'aurelia-http-client';
 const extend = breeze.core.extend;
 
 export class HttpResponse {

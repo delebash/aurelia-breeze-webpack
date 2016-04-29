@@ -15,9 +15,9 @@ var _breezeClient = require('breeze-client');
 
 var _breezeClient2 = _interopRequireDefault(_breezeClient);
 
-var _aureliaHttpClient = require('aurelia-http-client');
-
 var _aureliaBinding = require('aurelia-binding');
+
+var _aureliaHttpClient = require('aurelia-http-client');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

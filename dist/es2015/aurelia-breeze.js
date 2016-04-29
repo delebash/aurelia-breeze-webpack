@@ -1,8 +1,8 @@
 var _dec, _class;
 
 import breeze from 'breeze-client';
-import { HttpClient } from 'aurelia-http-client';
 import { subscriberCollection, ObserverLocator } from 'aurelia-binding';
+import { HttpClient } from 'aurelia-http-client';
 
 const extend = breeze.core.extend;
 

@@ -1,12 +1,12 @@
 declare module 'aurelia-breeze' {
   import breeze from 'breeze-client';
   import {
-    HttpClient
-  } from 'aurelia-http-client';
-  import {
     subscriberCollection,
     ObserverLocator
   } from 'aurelia-binding';
+  import {
+    HttpClient
+  } from 'aurelia-http-client';
   export class HttpResponse {
     constructor(aureliaResponse: any, config: any);
     getHeader(headerName: any): any;
